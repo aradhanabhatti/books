@@ -1,0 +1,58 @@
+ *{
+    margin:0;
+    padding:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  
+  }
+  
+  .hero{
+    position:relative;
+    width: 100%;
+    height: 10vh;
+    border: 2px solid black;
+    background-color: brown;
+    border: 3px solid black; 
+    padding: 10px; 
+  }
+  .port{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+.box{
+  height:400px;
+  width:800px;
+  background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvpZr7GNgxxxF9RHcD57oeygyGND8aOiDGmA&usqp=CAU) ;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  padding: 10px;
+  margin: 40px auto;
+  box-shadow: 0px 0px 10px 2px grey;
+  border-radius: 20px;
+  border: 5px solid black;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+  }
+
+.search-btn{
+  align-items: center;
+  justify-content: center;
+  font-size: medium;
+  background-color: aquamarine;
+
+}
+
+.btn-1{
+  background-color: #FFA500; /* Set the background color */
+  color: white; /* Set the text color */
+  border: none; /* Remove the default border */
+  padding: 10px 20px; /* Add some padding */
+  font-size: 16px;
+  cursor: pointer; /* Show a pointer cursor on hover */
+  border-radius: 5px; /* Add rounded corners */
+}
+
+.btn-1:hover {
+  background-color: #FFD700; /* Change background color on hover */
+}
